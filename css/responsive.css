@@ -1,0 +1,84 @@
+/* -------------------------------- *
+    (min-width:768px)
+*-----------------------------------*/
+
+@media only screen and (min-width:768px) {
+    body {
+        min-height: 100vh;
+    }
+    .full-screen {
+        min-height: 100vh;
+        height: 100vh;
+        /* overflow: hidden; */
+    }
+}
+
+
+/* -------------------------------- *
+    (max-width:767px)
+*-----------------------------------*/
+
+@media only screen and (max-width:767px) {
+    .password_info {
+        right: -5px;
+        top: 47px;
+        display: block;
+    }
+    .password_info::before {
+        left: auto;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+        transform: rotate(90deg);
+        top: -25px;
+        margin-top: 0;
+    }
+    .step-wrap {
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+    .add_option {
+        display: none;
+    }
+    /* .label_text {
+        font-size: 18px;
+    } */
+    /* .select-styled {
+        font-size: 18px;
+        height: 35px;
+    } */
+    .select-styled:after {
+        top: 7px;
+    }
+    .select_form {
+        font-size: 18px
+    }
+    .select .selectBtn {
+        font-size: 16px;
+    }
+    .header_img {
+        padding: 10px 15px;
+    }
+    .form-control {
+        padding: 10px 20px;
+    }
+    .select_form {
+        font-size: 16px
+    }
+    .select .selectBtn {
+        font-size: 14px;
+    }
+    .select .selectBtn:after {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (width:768px) and (height:1024px) {
+    .banner_text h4 {
+        font-size: 16px;
+    }
+    .banner_inner_image img {
+        height: auto;
+    }
+}

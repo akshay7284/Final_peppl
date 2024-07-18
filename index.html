@@ -1,0 +1,585 @@
+<html>
+
+<head>
+    <title>peoppl</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tellphone.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+
+    <!-- Step 1 Start -->
+
+    <section class="full-screen" id="login_step1">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+                    <div class="form_content_wrap">
+                        <div class="step_title_wrap">
+                            <h2>Welcome to peoppl</h2>
+                            <label>Lets's get started with some simple steps</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="contact_form">
+                                <div class="form-group">
+                                    <label class="input_label">Enter your email</label>
+                                    <input type="text" placeholder="name@company.com" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5">
+                            <button type="button" class="comman_anchor w-100" onclick="gotoStep(2)">Continue</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s" style="background-image: url(image/Background_1.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 380px;">Recognize, motivate and reward your team</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 1 End -->
+
+    <!-- Step 2 Start -->
+
+    <section class="full-screen" id="login_step2">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+                    <div class="form_content_wrap">
+                        <div class="step_title_wrap">
+                            <h2>Welcome to peoppl</h2>
+                            <label>Lets's get started with some simple steps</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="contact_form">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="First Name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Last Name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="Company Name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="mobile_number_drop">
+                                                <div class="form-group">
+                                                    <input type="tel" id="phone">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <input type="text" placeholder="+91-00000-00000" class="form-control ">
+                                                    <p class="warning_text">Enter numerics only</p>
+                                                    <!-- For the warning show you have to error class add in input tag -->
+                                                    <!-- For the warning show you have to warning_text class add in <p> tag -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="password_wrap">
+                                            <div class="d-flex align-items-center form-group">
+                                                <div class="col position-relative">
+                                                    <input type="password" id="password" class="form-control" value="password">
+                                                    <a href="javascript:void(0)" class="eye_wrap toggle-password">
+                                                        <i class="fa fa-eye" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="info_wrap">
+                                                    <a href="javascript:void(0)">
+                                                        <img src="image/info.png" alt="">
+                                                    </a>
+                                                    <div class="password_info">
+                                                        <ul>
+                                                            <li>8 Characters Minimum</li>
+                                                            <li class="selected">1 Uppercase Character</li>
+                                                            <li>1 Special Character</li>
+                                                            <li class="mb-0">1 Numeric Characters</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="platform_wrap">
+                                            <div class="form-group d-flex align-items-center">
+                                                <div class="col-8 pr-0">
+                                                    <input type="text" placeholder="Platform name" class="form-control paltform_name">
+                                                </div>
+                                                <div class="col-4 pl-0">
+                                                    <span class="domain_name_wrap">.peoppl.com</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                                            <label for="styled-checkbox-1" class="terms_text">I agree the the
+                                                <span>Terms of
+                                                    Services</span> and
+                                                <span>Privacy Policy</span></label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap">
+                            <button type="button" data-bs-target="#success_modal" data-bs-toggle="modal" class="comman_anchor w-100">Continue</button>
+                            <a href="javascript:void(0)" onclick="gotoBackStep(1)" class="comman_back_btn previous d-block mx-auto mt-4">
+                                <img src="image/arrow-left.png" alt="">
+                                <span>Back</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s " style="background-image: url(image/Background_2.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img_2.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 380px;">Recognize, motivate and reward your team</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade success_modal" id="success_modal" tabindex="-1" aria-labelledby="success_modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="success_content text-center">
+                        <div class="table_wrap">
+                            <div class="cell_wrap">
+                                <img src="image/check-circle.png" alt="">
+                                <h3>Awesome!</h3>
+                                <p>Thanks for registering. We sent you and email to confirm your email address</p>
+                                <button type="button" class="comman_anchor" onclick="gotoStep(3)" data-bs-dismiss="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 2 End -->
+
+    <!-- Step 3 Start -->
+
+    <section class="full-screen" id="login_step3">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+
+                    <div class="form_content_wrap">
+                        <div class="step_count_wrap">
+                            <p>Step 1 of 6</p>
+                        </div>
+                        <div class="step_title_wrap">
+                            <h2>Lets create the best experience for you</h2>
+                            <label>Tell us a bit more about yourself so we can help you get started </label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="">
+                                <form class="contact_form">
+                                    <div class="d-flex form-group">
+                                        <label class="label_text">I'm a</label>
+                                        <select class="role">
+                                            <option value="hide">Select Role</option>
+                                            <option value="Business Owner" rel="icon-temperature">Business Owner</option>
+                                            <option value="CEO">CEO</option>
+                                            <option value="HR Director">HR Director</option>
+                                            <option value="HR Manager">HR Manager</option>
+                                            <option value="Team Leader">Team Leader</option>
+                                            <option value="Team Member">Team Member</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        <label class="label_text first-text show-first invisible">& I am here</label>
+                                    </div>
+
+                                    <div class="d-flex second_select reason_select invisible">
+                                        <label class="label_text">to</label>
+                                        <select class="reason">
+                                            <option value="hide">Select Reason</option>
+                                            <option value="Engage" rel="icon-temperature">Engage</option>
+                                            <option value="Reward">Reward</option>
+                                        </select>
+                                        <label class="label_text second-text">my team</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5">
+                            <button type="button" class="comman_anchor w-100" onclick="gotoStep(4)">Continue</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s" style="background-image: url(image/Background_3.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img_3.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 380px;">Recognize, motivate and reward your team</h4>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Step 3 End -->
+
+    <!-- Step 4 Start -->
+
+    <section class="full-screen" id="login_step4">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+
+                    <div class="form_content_wrap">
+                        <div class="step_count_wrap">
+                            <p>Step 3 of 6</p>
+                        </div>
+                        <div class="step_title_wrap">
+                            <h2>Yay! We are almost there</h2>
+                            <label>Give your employee engagement platform a name</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="contact_form">
+                                <form>
+                                    <div class="d-flex g-0 form-group third_select">
+                                        <label class="label_text">I work with</label>
+                                        <select class="size">
+                                            <option value="hide">Choose size</option>
+                                            <option value="10-50" rel="icon-temperature">10-50</option>
+                                            <option value="50-100">50-100</option>
+                                            <option value="100-500">100-500</option>
+                                            <option value="500+">500+</option>
+                                        </select>
+                                        <label class="label_text third-text invisible ">people,</label>
+                                    </div>
+                                    <div class="d-flex g-0 headquater form-group four_select invisible ">
+                                        <label class="label_text">my headquater is in</label>
+                                        <select class="country">
+                                            <option value="hide">Country</option>
+                                            <option value="UAE" rel="icon-temperature">UAE</option>
+                                            <option value="Aaudi Arabia">Saudi Arabia</option>
+                                            <option value="USA">USA</option>
+                                            <option value="India">India</option>
+                                        </select>
+                                        <label class="label_text fourth-text invisible">and my,</label>
+                                    </div>
+                                    <div class="d-flex g-0 headquater form-group five_select invisible ">
+                                        <label class="label_text">employees are located in</label>
+                                        <select class="countries">
+                                            <option value="hide">Countries</option>
+                                            <option value="1-3" rel="icon-temperature">1-3</option>
+                                            <option value="3-5">3-5</option>
+                                            <option value="5-10">5-10</option>
+                                            <option value="10+">10+</option>
+                                        </select>
+                                    </div>
+                                    <label class="label_text fifth-text invisible ">countries</label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5">
+                            <button type="button" class="comman_anchor w-100" onclick="gotoStep(5)">Continue</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s" style="background-image: url(image/Background_4.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img_4.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 380px;">Recognize, motivate and reward your team</h4>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Step 4 End -->
+
+    <!-- Step 5 Start -->
+
+    <section class="full-screen" id="login_step5">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+
+                    <div class="form_content_wrap">
+                        <div class="step_count_wrap">
+                            <p>Step 3 of 6</p>
+                        </div>
+                        <div class="step_title_wrap">
+                            <h2>Yay! We are almost there</h2>
+                            <label>Give your employee engagement platform a name</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="contact_form">
+                                <div class="platform_wrap">
+                                    <div class="form-group d-flex align-items-center">
+                                        <div class="col-8 pr-0">
+                                            <input type="text" placeholder="meritincentives" class="form-control paltform_name">
+                                        </div>
+                                        <div class="col-4 pl-0">
+                                            <span class="domain_name_wrap">.peoppl.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5">
+                            <button type="button" class="comman_anchor w-100" onclick="gotoStep(6)">Continue</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s" style="background-image: url(image/Background_3.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img_5.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 434px;">Share your team achievements & make them visible to their peers</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 5 End -->
+
+    <!-- Step 6 Start -->
+
+    <section class="full-screen" id="login_step6">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+
+                    <div class="form_content_wrap">
+                        <div class="step_count_wrap">
+                            <p>Step 4 of 6</p>
+                        </div>
+                        <div class="step_title_wrap">
+                            <h2>Yay! We’re almost there</h2>
+                            <label>Add your team members & build your workflows together</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="contact_form">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <input type="email" placeholder="name@company.com" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="custom_drop_down role_drop_down">
+                                            <div class="selected">
+                                                <span>Role</span>
+                                            </div>
+                                            <div class="options">
+                                                <ul>
+                                                    <li>
+                                                        <label>Admin</label>
+                                                        <span class="value">Can invite and manage new users</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Member</label>
+                                                        <span class="value">Can nominate & engage</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="newRow"></div>
+                                <div>
+                                    <button id="addRow" type="button" class="transprent_comman_anchor add_row_btn">+ Add
+                                        Another</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5 pt-3">
+                            <div class="row g-0 g-md-3">
+                                <div class="col-md-6 mt-0">
+                                    <button type="button" class="transprent_comman_anchor w-100">I’ll do it
+                                        later</button>
+                                </div>
+                                <div class="col-sm-6 mt-3 mt-md-0 mb-5 mb-md-0">
+                                    <button type="button" class="comman_anchor w-100" onclick="gotoStep(7)">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-4 mb-0">
+                            <input class="styled-checkbox" id="email_notification" type="checkbox" value="value1">
+                            <label for="email_notification" class="terms_text">Send them a notification email
+                                now!</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s showIn" style="background-image: url(image/Background_3.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img_6.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 380px;">Celebrate any special occasions</h4>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Step 6 End -->
+
+    <!-- Step 7 Start -->
+
+    <section class="full-screen" id="login_step7">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+
+                    <div class="form_content_wrap">
+                        <div class="step_count_wrap">
+                            <p>Step 5 of 6</p>
+                        </div>
+                        <div class="step_title_wrap">
+                            <h2>Lets add the final touchup</h2>
+                            <label>Upload your company logo</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="step_file_upload file-drop-area">
+                                <input type="file" id="dropContainer" class="file_upload_input">
+                                <div class="file_upload_content text-center">
+                                    <img src="image/file_upload.png" draggable="false" alt="">
+                                    <h4>Drag or Select file to Upload</h4>
+                                    <p>File allowed JPG, PNG & SVG 200x100 less than 200KB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5 pt-3">
+                            <div class="row g-0 g-md-3">
+                                <div class="col-md-6 mt-0">
+                                    <button type="button" class="transprent_comman_anchor w-100">I’ll do it
+                                        later</button>
+                                </div>
+                                <div class="col-sm-6 mt-3 mt-md-0 mb-5 mb-md-0">
+                                    <button type="button" class="comman_anchor w-100" onclick="gotoStep(8)">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s showIn" style="background-image: url(image/Background_7.png);">
+                    <div class="banner_inner_image">
+                        <img src="image/banner_img_7.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0" style="max-width: 380px;">Be part of the 60k+ people that bring engagement to the next level</h4>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Step 7 End -->
+
+    <!-- Step 8 Start -->
+
+    <section class="full-screen" id="login_step8">
+        <div class="container-fluid h-100">
+            <div class="d-flex flex-wrap h-100">
+                <div class="col-lg-8 col-md-7 col-12 transition3s showIn">
+                    <div class="header_img">
+                        <a href="#"><img src="image/pp-logo.png" alt="pp_logo"></a>
+                    </div>
+
+                    <div class="form_content_wrap">
+                        <div class="step_count_wrap">
+                            <p>Step 6 of 6</p>
+                        </div>
+                        <div class="step_title_wrap">
+                            <h2>Customise your employee engagement platform</h2>
+                            <label>Setup your company branding design with visuals, colors, fonts and much
+                                more...</label>
+                        </div>
+                        <div class="step_content_wrap">
+                            <div class="final_step_image text-center">
+                                <img src="image/final_step_image.png" draggable="false" alt="">
+                            </div>
+                        </div>
+                        <div class="step_btn_wrap mt-5 pt-3">
+                            <button type="button" class="comman_anchor w-100">Continue</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5 right_wrap px-0 d-none d-md-block transition5s showIn" style="background-image: url(image/Background_8.png);">
+                    <div class="banner_inner_image ms-0">
+                        <img src="image/banner_img_8.png" alt="">
+                    </div>
+                    <div class="banner_text w-100">
+                        <h4 class="mb-0">Engage with your Employees Instantly & Remotely!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step 8 End -->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/intlTelInput.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
